@@ -1,0 +1,22 @@
+/* 
+Use this:
+  import dog from "@images/dog.jpg";
+Instead of that:
+  import dog from "../../../images/dog.jpg" 
+*/
+
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "test": "./test",
+          "underscore": "lodash"
+        }
+      }
+    ],
+    ["@babel/plugin-proposal-class-properties"]
+  ]
+}
