@@ -11,17 +11,12 @@
     "mobx": "^5.15.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-<<<<<<< HEAD
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
     "reactn": "^2.2.5",
     "redux": "^4.0.5",
-=======
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.1",
-    "reactn": "^2.2.5",
->>>>>>> 1917771f8254d9ca0ae24e493463b559dfcae4f3
+    "redux-thunk": "^2.3.0",
     "styled-components": "^5.0.0"
   },
   "scripts": {
